@@ -121,3 +121,24 @@ select {
 .nav-item.last {
   margin: 0;
 }
+
+/* +----------+
+   |  LAYOUT  |
+   +----------+ */
+.header-content, .panel-inner, .page-content,
+.footer-inner {
+   max-width: 2023.5px;
+   width: 100%;
+   padding: 0 51.75px;
+}
+
+/* +----------+
+   |  HEADER  |
+   +----------+ */
+#header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 3;
+   width: 100%;
+}
