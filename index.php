@@ -1,3 +1,7 @@
+<?php 
+  $themes = ['lightblue', 'orange', 'purple', 'navy'];
+  $activeTheme = $themes[array_rand($themes)];
+?>
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -6,7 +10,7 @@
     <title>MR S and MS M</title>
     <link rel="stylesheet" href="/assets/css/main.css">
   </head>
-  <body>
+  <body class="home <?php echo $activeTheme; ?>">
     <div id="pageContainer">
       <header id="header">
         <div class="header-content">
@@ -20,30 +24,21 @@
             <span class="text">Menu</span>
           </a>
         </div>
-        <div class=""></div>
-      </header>
-      <main id="page">
-        <?php echo 'Hello world'; ?>
-      </main>
-      <footer id="footer">
-        <div class="section" id="footerCopyright">
-          <ul class="menu" id="copyrightMenu">
-            <li>&copy; <?php echo date("Y"); ?> MR S and MS M.</li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/privacy">Privacy</a></li>
-            <li><a href="/terms">Terms</a></li>
-            <li><a href="/cookies">Cookies</a></li>
-            <li><a href="/ccpa">CCPA</a></li>
-            <li>
-              <a href="#siteCredits" class="credits">Credits</a>
-              <div id="siteCredits">
-                <p>Site designed by <a href="/about/band/mr-s">the nosey raccoon</a> and <a href="/about/band/ms-m">the tortured turtle</a>.</p>
-                <p>Built in NYC by the dev team @ <a href="https://www.valenselectronsmgmt.com" target="_blank">Valens Electrons</a></p>
-              </div>
+        <nav class="navigation">
+          <ul class="nav" id="siteNavigation">
+            <li class="nav-item">
+              <a href="/news" class="nav-link">News</a>
+            </li>
+            <li class="nav-item last">
+              <a href="/store" class="nav-link">Store</a>
             </li>
           </ul>
-        </div>
-      </footer>
+        </nav>
+      </header>
+      <main id="page">
+        <?php echo 'this is the website.'; ?>
+      </main>
+      <?php include_once '/includes/ft.php'>
     </div>
   </body>
 </html>
