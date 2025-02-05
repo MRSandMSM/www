@@ -38,7 +38,7 @@
       <main id="page">
         <?php echo 'this is the website.'; ?>
       </main>
-      <?php include_once '/includes/ft.php'>
+      <?php include_once '/includes/ft.php' ?>
     </div>
   </body>
 </html>
