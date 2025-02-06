@@ -146,9 +146,6 @@ select {
 /* +---------------+
    |  NAVIGATIONS  |
    +---------------+ */
-.mobile-nav-toggler {
-   display: none;
-}
 .nav {
   list-style-type: none;
   font-size: 0;
@@ -174,7 +171,8 @@ select {
 .page-inner, .footer-inner {
    width: 100%;
    max-width: 2023.5px;
-   padding: 0 51.75px;
+   margin: 0 auto;
+   padding: 0 2.875em;
 }
 
 /* +----------+
@@ -205,14 +203,17 @@ select {
 #header .logo a {
    width: 100%;
 }
+.mobile-nav-toggler {
+   display: none;
+}
 .navigation {
    flex-grow: 1;
    padding: 0 0 0 1em;
    text-align: right;
 }
 #header .nav-item {
-   margin: 0 0 1.2em 0;
-   font-size: 1.25em;
+   margin: 0 1.2em 0 0;
+   font-size: 22.5px;
 }
 #header .nav-link {
    font-weight: 600;
@@ -234,6 +235,13 @@ select {
 #footer {
    padding: 5em 0 0 0;
 }
+#footerCopyright {
+   border-top: .125em solid;
+   padding: .5em 0;
+}
+#copyrightMenu {
+   float: right;
+}
 
 /* +------------------+
    |  RESPONSIVE CSS  |
@@ -242,11 +250,48 @@ select {
    /* +---------------+
       |  NAVIGATIONS  |
       +---------------+ */
-   .mobile-nav-toggler {
+   .nav-item {
       display: block;
    }
+   
+   /* +----------+
+      |  LAYOUT  |
+      +----------+ */
+   .header-inner, .secondary-nav-inner, .panel-inner,
+   .page-inner, .footer-inner {
+      padding: 0 1.5em; 
+   }
+   
+   /* +----------+
+      |  HEADER  |
+      +----------+ */
+   #header {
+      padding: .5em 0;
+   }
+   .header-inner {
+      display: block;
+   }
+   .header-content {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+   .mobile-nav-toggler {
+      display: block;
+      position: relative;
+   }
+   .mobile-nav-toggler:before,
    .mobile-nav-toggler .bar {
       position: absolute;
+   }
+   .mobile-nav-toggler:before {
+      top: -1em;
+      right: -1.5em;
+      bottom: -1em;
+      left: -1em;
+   }
+   .mobile-nav-toggler .bar {
       left: 0;
       width: 1.5em;
       height: .125em;
@@ -281,14 +326,5 @@ select {
    }
    .mobile-nav-open .mobile-nav-toggler .bar-bottom {
       transform: rotate(135deg);
-   }
-   .nav-item {
-      display: block;
-   }
-   /* +----------+
-      |  HEADER  |
-      +----------+ */
-   .header-content {
-      width: 100%;
    }
 }
