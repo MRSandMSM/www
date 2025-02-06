@@ -1,3 +1,6 @@
+/* +------------------------------+
+   |  ITC AVANT GARDE GOTHIC STD  |
+   +------------------------------+ */
 @font-face {
   font-family: "itc-avant-garde-gothic-std";
   font-weight: 400;
@@ -30,6 +33,10 @@
        url('/assets/type/ITCAvantGarde/bold/ITC%20Avant%20Garde%20Gothic%20Std%20Bold.ttf') format('truetype'),
        url('/assets/type/ITCAvantGarde/bold/ITC%20Avant%20Garde%20Gothic%20Std%20Bold.woff') format('woff');
 }
+
+/* +----------------------------------------+
+   |  ITC AVANT GARDE GOTHIC STD CONDENSED  |
+   +----------------------------------------+ */
 @font-face {
   font-family: "itc-avant-garde-gothic-std-condensed";
   font-weight: 400;
@@ -37,4 +44,88 @@
        url('/assets/type/ITCAvantGarde/cdnsd/book/ITC%20Avant%20Garde%20Gothic%20Std%20Book%20Condensed.eot#iefix') format('embedded-opentype'),
        url('/assets/type/ITCAvantGarde/cdnsd/book/ITC%20Avant%20Garde%20Gothic%20Std%20Book%20Condensed.ttf') format('truetype'),
        url('/assets/type/ITCAvantGarde/cdnsd/book/ITC%20Avant%20Garde%20Gothic%20Std%20Book%20Condensed.woff') format('woff');
+}
+
+/* +------------+
+   |  MINION 3  |
+   +------------+ */
+@font-face {
+  font-family: "minion-3";
+  src: url('https://use.typekit.net/af/40c298/00000000000000007735948a/30/l?subset_id=2&fvd=n4&v=3') format('woff2'),
+       url('https://use.typekit.net/af/40c298/00000000000000007735948a/30/d?subset_id=2&fvd=n4&v=3') format('woff'),
+       url('https://use.typekit.net/af/40c298/00000000000000007735948a/30/a?subset_id=2&fvd=n4&v=3') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: "minion-3";
+  src: url('https://use.typekit.net/af/36bb94/000000000000000077359495/30/l?subset_id=2&fvd=n5&v=3') format('woff2'),
+       url('https://use.typekit.net/af/36bb94/000000000000000077359495/30/d?subset_id=2&fvd=n5&v=3') format('woff'),
+       url('https://use.typekit.net/af/36bb94/000000000000000077359495/30/a?subset_id=2&fvd=n5&v=3') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: "minion-3";
+  src: url('https://use.typekit.net/af/4ba8a2/0000000000000000773594a0/30/l?subset_id=2&fvd=n6&v=3') format('woff2'),
+       url('https://use.typekit.net/af/4ba8a2/0000000000000000773594a0/30/d?subset_id=2&fvd=n6&v=3') format("woff"),
+       url('https://use.typekit.net/af/4ba8a2/0000000000000000773594a0/30/a?subset_id=2&fvd=n6&v=3') format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: "minion-3";
+  src: url('https://use.typekit.net/af/8ea500/0000000000000000773594a3/30/l?subset_id=2&fvd=n7&v=3') format('woff2'),
+       url('https://use.typekit.net/af/8ea500/0000000000000000773594a3/30/d?subset_id=2&fvd=n7&v=3') format("woff"),
+       url('https://use.typekit.net/af/8ea500/0000000000000000773594a3/30/a?subset_id=2&fvd=n7&v=3') format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: "minion-3";
+  src: url('https://use.typekit.net/af/9b541f/000000000000000077359486/30/l?subset_id=2&fvd=i4&v=3') format('woff2'),
+       url('https://use.typekit.net/af/9b541f/000000000000000077359486/30/d?subset_id=2&fvd=i4&v=3') format('woff'),
+       url('https://use.typekit.net/af/9b541f/000000000000000077359486/30/a?subset_id=2&fvd=i4&v=3') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: "minion-3";
+  src: url('https://use.typekit.net/af/e5d377/000000000000000077359492/30/l?subset_id=2&fvd=i5&v=3') format('woff2'),
+       url('https://use.typekit.net/af/e5d377/000000000000000077359492/30/d?subset_id=2&fvd=i5&v=3') format('woff'),
+       url('https://use.typekit.net/af/e5d377/000000000000000077359492/30/a?subset_id=2&fvd=i5&v=3') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: "minion-3";
+  src: url('https://use.typekit.net/af/eafbfc/00000000000000007735949e/30/l?subset_id=2&fvd=i6&v=3') format('woff2'),
+       url('https://use.typekit.net/af/eafbfc/00000000000000007735949e/30/d?subset_id=2&fvd=i6&v=3') format('woff'),
+       url('https://use.typekit.net/af/eafbfc/00000000000000007735949e/30/a?subset_id=2&fvd=i6&v=3') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: "minion-3";
+  src: url('https://use.typekit.net/af/963ab2/000000000000000077359491/30/l?subset_id=2&fvd=i7&v=3') format('woff2'),
+       url('https://use.typekit.net/af/963ab2/000000000000000077359491/30/d?subset_id=2&fvd=i7&v=3') format('woff'),
+       url('https://use.typekit.net/af/963ab2/000000000000000077359491/30/a?subset_id=2&fvd=i7&v=3') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: auto;
 }
