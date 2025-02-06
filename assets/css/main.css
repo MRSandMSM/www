@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6, p {
 h1:last-child, h2:last-child, h3:last-child,
 h4:last-child, h5:last-child, h6:last-child,
 p:last-child {
-  margin: 0;
+  margin: 0 !important;
 }
 h1, h2, h3, h4, h5, h6 {
   padding: .25em 0 0 0;
@@ -165,6 +165,34 @@ select {
   margin: 0 !important;
 }
 
+/* +-------------+
+   |  CSS ICONS  |
+   +-------------+ */
+.close, .plus {
+   display: inline-block;
+   *zoom: 1;
+   *display: inline;
+   position: relative;
+}
+.close:before, .close:after,
+.plus:before, .plus:after {
+   content: "";
+   position: absolute;
+   top: 50%;
+   margin: -.0625em 0 0 ;
+   width: 100%;
+   height: .125em;
+}
+.close:before {
+   transform: rotate(-45deg);
+}
+.close:after {
+   transform: rotate(45deg);
+}
+.plus:after {
+   transform: rotate(90deg);
+}
+
 /* +----------+
    |  LAYOUT  |
    +----------+ */
@@ -243,22 +271,24 @@ select {
 #copyrightMenu {
    float: left;
    position: relative;
+   padding: 0 1em 0 0;
 }
 #siteCredits, #siteCredits .close {
    position: absolute;
    left: 0;
-   bottom: 0;
 }
 #siteCredits {
    width: 100%;
-   padding: 1em 0 0;
+   padding: .5em 1em .5em 0;
+   bottom: -.5em;
 }
 .credits-inner {
-   margin: 0 0 0 1em;
+   margin: 0 0 0 1.5em;
 }
 #siteCredits .close {
    width: 1em;
    height: 1em;
+   bottom: 0;
 }
 #siteCredits p {
    margin: 0 0 .25em 0;
