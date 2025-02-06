@@ -12,11 +12,11 @@
   </head>
   <body class="home <?php echo $activeTheme; ?>">
     <div id="pageContainer">
-      <?php include_once __DIR__ . '/includes/hd.php' ?>
+      <?php include_once __DIR__ . '/includes/hd.php'; ?>
       <main id="page">
         <?php echo 'this is the website.'; ?>
       </main>
-      <?php include_once __DIR__ . '/includes/ft.php' ?>
+      <?php include_once __DIR__ . '/includes/ft.php'; ?>
     </div>
   </body>
 </html>
