@@ -1,0 +1,59 @@
+/* +---------------+
+   |  THEME: NAVY  |
+   +---------------+ */
+
+/* +------------+
+   |  CORE CSS  |
+   +------------+ */
+::selection {
+  background-color: #21557d;
+  color: #f5f8fa;
+}
+body {
+  background-color: #f5f8fa;
+  color: #051a29;
+}
+
+/* +------------+
+   |  ELEMENTS  |
+   +------------+ */
+a {
+  color: #21557d;
+}
+a:hover {
+  color: #051a29;
+}
+
+/* +-------------+
+   |  UTILITIES  |
+   +-------------+ */
+.btn {
+  background-color: #1c8be1;
+  color: #051a29;
+}
+.btn-transparent {
+  border-color: #21557d;
+  color: #21557d;
+}
+
+/* +----------+
+   |  HEADER  |
+   +----------+ */
+.header .nav-link {
+  color: #051a29;
+}
+.header .nav-link:hover {
+  color: #21557d;
+}
+
+/* +------------------+
+   |  RESPONSIVE CSS  |
+   +------------------+ */
+@media screen and (max-width: 767px) {
+  .mobile-nav-toggler:before {
+    background-color: #a5d8ff;
+  }
+  .bar {
+    background-color: #051a29;
+  }
+}
