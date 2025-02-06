@@ -48,6 +48,7 @@ a:hover {
    |  HEADER  |
    +----------+ */
 #header {
+   background-color: #f5f8fa;
    border-color: rgba(5, 26, 41, .0625);
 }
 #header .nav-link {
