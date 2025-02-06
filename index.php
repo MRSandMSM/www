@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MR S and MS M | Official Website</title>
     <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/themes/<?php echo $activeTheme; ?>.css">
   </head>
   <body class="home <?php echo $activeTheme; ?>">
     <div id="pageContainer">
