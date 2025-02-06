@@ -146,6 +146,9 @@ select {
 /* +---------------+
    |  NAVIGATIONS  |
    +---------------+ */
+.mobile-nav-toggler {
+   display: none;
+}
 .nav {
   list-style-type: none;
   font-size: 0;
@@ -155,8 +158,17 @@ select {
   *zoom: 1;
   *display: inline;
 }
+.nav-item {
+   font-size: 18px;
+   margin: 0 0 1em 0;
+}
 .nav-item.last {
   margin: 0;
+}
+.nav-link {
+   font-family: "itc-avant-garde-gothic-std-condensed", sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
 }
 
 /* +----------+
@@ -197,6 +209,14 @@ select {
 #header .logo a {
    width: 100%;
 }
+.navigation {
+   flex-grow: 1;
+   padding: 0 0 0 1em;
+   text-align: right;
+}
+.navigation .nav-link {
+   
+}
 
 /* +--------+
    |  MAIN  |
@@ -213,4 +233,28 @@ select {
    +----------+ */
 #footer {
    padding: 5em 0 0 0;
+}
+
+/* +------------------+
+   |  RESPONSIVE CSS  |
+   +------------------+ */
+@media screen and (max-width: 767px) {
+   /* +---------------+
+      |  NAVIGATIONS  |
+      +---------------+ */
+   .mobile-nav-toggler {
+      display: block;
+   }
+   .mobile-nav-toggler .bar {
+      position: absolute;
+      width: 1.5em;
+      height: .125em;
+   }
+   .mobile-nav-toggler .bar-top {
+      position: absolute;
+      top: 0;
+   }
+   .nav-item {
+      display: block;
+   }
 }
