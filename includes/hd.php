@@ -8,7 +8,7 @@
               <span class="bar bar-top"></span>
               <span class="bar bar-middle"></span>
               <span class="bar bar-bottom"></span>
-              <span class="text">Menu</span>
+              <span class="visually-hidden">Menu</span>
             </a>
           </div>
           <nav class="navigation">
