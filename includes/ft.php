@@ -14,13 +14,7 @@
               <li class="nav-item">
                 <a href="/terms" class="nav-link">Terms</a>
               </li>
-              <li class="nav-item">
-                <a href="/cookies" class="nav-link">Cookies</a>
-              </li>
-              <li class="nav-item">
-                <a href="/ccpa" class="nav-link">CCPA</a>
-              </li>
-              <li class="nav-item">
+              <li class="nav-item last">
                 <a href="#siteCredits" class="nav-link credits">Credits</a>
                 <div id="siteCredits">
                   <a href="#" class="close">
