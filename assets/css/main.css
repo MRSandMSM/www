@@ -238,17 +238,27 @@ select {
 }
 #footerCopyright {
    border-top: .125em solid;
-   padding: .5em 0;
+   padding: .75em 0;
 }
 #copyrightMenu {
-   float: right;
+   float: left;
+   position: relative;
+}
+#siteCredits, #siteCredits .close {
+   position: absolute;
+   left: 0;
+   bottom: 0;
 }
 #siteCredits {
-   position: absolute;
-   right: 0;
-   bottom: 0;
-   width: 34.3333334em;
-   padding: .5em 0 .5em 1em;
+   width: 100%;
+   padding: 1em 0 0;
+}
+.credits-inner {
+   margin: 0 0 0 1em;
+}
+#siteCredits .close {
+   width: 1em;
+   height: 1em;
 }
 #siteCredits p {
    margin: 0 0 .25em 0;
@@ -292,12 +302,16 @@ select {
    .mobile-nav-toggler {
       display: block;
       position: relative;
+      min-width: 1.5em;
+      min-height: .125em;
    }
    .mobile-nav-toggler:before,
-   .mobile-nav-toggler .bar {
+   .mobile-nav-toggler .bar,
+   .mobile-nav-toggler .text {
       position: absolute;
    }
    .mobile-nav-toggler:before {
+      content: "";
       top: -1em;
       right: -1.5em;
       bottom: -1em;
@@ -305,8 +319,8 @@ select {
    }
    .mobile-nav-toggler .bar {
       left: 0;
-      width: 1.5em;
-      height: .125em;
+      width: 100%;
+      height: 100%;
    }
    .mobile-nav-toggler .bar-top,
    .mobile-nav-toggler .bar-bottom {
@@ -325,6 +339,13 @@ select {
    }
    .mobile-nav-toggler .bar-bottom {
       top: .5em;
+   }
+   .mobile-nav-toggler .text {
+      padding: .25em 0 0 0;
+      font-family: "itc-avant-garde-gothic-std", sans-serif;
+      font-size: .25em;
+      font-weight: 700;
+      text-transform: uppercase;
    }
    .mobile-nav-open .mobile-nav-toggler .bar-top,
    .mobile-nav-open .mobile-nav-toggler .bar-bottom {
