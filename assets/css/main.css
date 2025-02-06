@@ -285,4 +285,10 @@ select {
    .nav-item {
       display: block;
    }
+   /* +----------+
+      |  HEADER  |
+      +----------+ */
+   .header-content {
+      width: 100%;
+   }
 }
