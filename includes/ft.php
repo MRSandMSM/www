@@ -23,8 +23,13 @@
               <li class="nav-item">
                 <a href="#siteCredits" class="nav-link credits">Credits</a>
                 <div id="siteCredits">
-                  <p>Site designed by <a href="/about/band/mr-s">the nosey raccoon</a> and <a href="/about/band/ms-m">the tortured turtle</a>.</p>
-                  <p>Built in NYC by the dev team @ <a href="https://www.valenselectronsmgmt.com" target="_blank">Valens Electrons</a></p>
+                  <a href="#" class="close">
+                    <span class="visually-hidden">Close</span>
+                  </a>
+                  <div class="credits-inner">
+                    <p>Site designed by <a href="/about/band/mr-s">the nosey raccoon</a> and <a href="/about/band/ms-m">the tortured turtle</a>.</p>
+                    <p>Built in NYC by the dev team @ <a href="https://www.valenselectronsmgmt.com" target="_blank">Valens Electrons</a></p>
+                  </div>
                 </div>
               </li>
             </ul>
