@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "itc-avant-garde-gothic-std";
+  font-weight: 400;
+  src: url('/assets/type/ITCAvantGarde/book/ITC%20Avant%20Garde%20Gothic%20Std%20Book.eot') format('embedded-opentype'),
+       url('/assets/type/ITCAvantGarde/book/ITC%20Avant%20Garde%20Gothic%20Std%20Book.eot#iefix') format('embedded-opentype'),
+       url('/assets/type/ITCAvantGarde/book/ITC%20Avant%20Garde%20Gothic%20Std%20Book.ttf') format('truetype'),
+       url('/assets/type/ITCAvantGarde/book/ITC%20Avant%20Garde%20Gothic%20Std%20Book.woff') format('woff');
+}
+@font-face {
+  font-family: "itc-avant-garde-gothic-std";
+  font-weight: 500;
+  src: url('/assets/type/ITCAvantGarde/medium/ITC%20Avant%20Garde%20Gothic%20Std%20Medium.eot') format('embedded-opentype'),
+       url('/assets/type/ITCAvantGarde/medium/ITC%20Avant%20Garde%20Gothic%20Std%20Medium.eot#iefix') format('embedded-opentype'),
+       url('/assets/type/ITCAvantGarde/medium/ITC%20Avant%20Garde%20Gothic%20Std%20Medium.ttf') format('truetype'),
+       url('/assets/type/ITCAvantGarde/medium/ITC%20Avant%20Garde%20Gothic%20Std%20Medium.woff') format('woff');
+}
+@font-face {
+  font-family: "itc-avant-garde-gothic-std";
+  font-weight: 600;
+  src: url('/assets/type/ITCAvantGarde/demi/ITC%20Avant%20Garde%20Gothic%20Std%20Demi.eot') format('embedded-opentype'),
+       url('/assets/type/ITCAvantGarde/demi/ITC%20Avant%20Garde%20Gothic%20Std%20Demi.eot#iefix') format('embedded-opentype'),
+       url('/assets/type/ITCAvantGarde/demi/ITC%20Avant%20Garde%20Gothic%20Std%20Demi.ttf') format('truetype'),
+       url('/assets/type/ITCAvantGarde/demi/ITC%20Avant%20Garde%20Gothic%20Std%20Demi.woff') format('woff');
+}
+@font-face {
+  font-family: "itc-avant-garde-gothic-std";
+  font-weight: 700;
+  src: url('/assets/type/ITCAvantGarde/bold/ITC%20Avant%20Garde%20Gothic%20Std%20Bold.eot') format('embedded-opentype'),
+       url('/assets/type/ITCAvantGarde/bold/ITC%20Avant%20Garde%20Gothic%20Std%20Bold.eot#iefix') format('embedded-opentype'),
+       url('/assets/type/ITCAvantGarde/bold/ITC%20Avant%20Garde%20Gothic%20Std%20Bold.ttf') format('truetype'),
+       url('/assets/type/ITCAvantGarde/bold/ITC%20Avant%20Garde%20Gothic%20Std%20Bold.woff') format('woff');
+}
+@font-face {
+  font-family: "itc-avant-garde-gothic-std-condensed";
+  font-weight: 400;
+  src: url('/assets/type/ITCAvantGarde/cdnsd/book/ITC%20Avant%20Garde%20Gothic%20Std%20Book%20Condensed.eot') format('embedded-opentype'),
+       url('/assets/type/ITCAvantGarde/cdnsd/book/ITC%20Avant%20Garde%20Gothic%20Std%20Book%20Condensed.eot#iefix') format('embedded-opentype'),
+       url('/assets/type/ITCAvantGarde/cdnsd/book/ITC%20Avant%20Garde%20Gothic%20Std%20Book%20Condensed.ttf') format('truetype'),
+       url('/assets/type/ITCAvantGarde/cdnsd/book/ITC%20Avant%20Garde%20Gothic%20Std%20Book%20Condensed.woff') format('woff');
+}
