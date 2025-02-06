@@ -11,6 +11,7 @@ html, body {
 }
 html {
   -webkit-text-size-adjust: 100%;
+   text-size-adjust: 100%;
 }
 body {
   margin: 0;
@@ -138,6 +139,7 @@ select {
    background-size: cover;
 }
 .replace {
+   text-indent: -9999px;
    background-size: contain;
 }
 
@@ -177,7 +179,7 @@ select {
    z-index: 3;
    width: 100%;
    padding: .75em 0;
-   border: 1px solid;
+   border-bottom: 1px solid;
 }
 .hero #header {
    background-color: transparent;
@@ -189,6 +191,8 @@ select {
 }
 #header .logo {
    height: 2em;
+   margin: 0;
+   font-size: 1em;
 }
 #header .logo a {
    width: 100%;
@@ -198,7 +202,7 @@ select {
    |  MAIN  |
    +--------+ */
 #page {
-   margin: 0 0 0 0;
+   margin: 63.66666793823242px 0 0 0;
 }
 .hero #page {
    margin: 0;
