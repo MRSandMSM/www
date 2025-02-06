@@ -85,7 +85,7 @@ select {
   font-size: 1.25em;
   font-weight: 700;
 }
-.clearfix:after {
+.section:after, .clearfix:after {
   display: table;
   clear: both;
   content: "";
@@ -158,10 +158,11 @@ select {
 .nav-item {
    margin: 0 0 1em 0;
    font-size: 18px;
+   line-height: 1em;
    vertical-align: top;
 }
 .nav-item.last {
-  margin: 0;
+  margin: 0 !important;
 }
 
 /* +----------+
@@ -242,6 +243,16 @@ select {
 #copyrightMenu {
    float: right;
 }
+#siteCredits {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   width: 34.3333334em;
+   padding: .5em 0 .5em 1em;
+}
+#siteCredits p {
+   margin: 0 0 .25em 0;
+}
 
 /* +------------------+
    |  RESPONSIVE CSS  |
@@ -252,6 +263,7 @@ select {
       +---------------+ */
    .nav-item {
       display: block;
+      margin: 0 0 .5em 0;
    }
    
    /* +----------+
@@ -326,5 +338,8 @@ select {
    }
    .mobile-nav-open .mobile-nav-toggler .bar-bottom {
       transform: rotate(135deg);
+   }
+   #header .nav-item {
+      margin: 0 0 .6em 0;
    }
 }
