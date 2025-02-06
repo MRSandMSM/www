@@ -1,4 +1,4 @@
-<header id="header">
+    <header id="header">
         <div class="header-content">
           <h1 class="logo">
             <a href="/">MR S and MS M</a>
@@ -20,4 +20,4 @@
             </li>
           </ul>
         </nav>
-</header>
+    </header>
