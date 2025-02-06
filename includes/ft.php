@@ -1,7 +1,7 @@
 <footer id="footer">
         <div class="footer-inner">
           <div class="section" id="footerCopyright">
-            <ul class="nav" id="copyrightMenu">
+            <ul class="nav" id="copyrightNav">
               <li class="nav-item">
                 <span class="nav-span">&copy; <?php echo date("Y"); ?> MR S and MS M</span>
               </li>
