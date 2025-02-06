@@ -36,14 +36,35 @@ a:hover {
   color: #21557d;
 }
 
+/* +-------------+
+   |  CSS ICONS  |
+   +-------------+ */
+.close:before, .close:after,
+.plus:before, .plus:after {
+   background-color: #051a29;
+}
+
 /* +----------+
    |  HEADER  |
    +----------+ */
-.header .nav-link {
+#header {
+   border-color: rgba(5, 26, 41, .0625);
+}
+#header .nav-link {
   color: #051a29;
 }
-.header .nav-link:hover {
+#header .nav-link:hover {
   color: #21557d;
+}
+
+/* +-----------+
+   |  FOOTERS  |
+   +-----------+ */
+#footer, #siteCredits {
+   background-color: #f5f8fa;
+}
+#copyrightNav {
+   border-color: #051A29;
 }
 
 /* +------------------+
