@@ -7,26 +7,16 @@ $menu_items = [
         'url' => '/home'
     ],
     [
-        'label' => 'About',
-        'url' => '/about'
+        'label' => 'News',
+        'url' => '/news'
     ],
     [
-        'label' => 'Services',
-        'url' => '/services',
-        'sub_menu' => [
-            [
-                'label' => 'Web Development',
-                'url' => '/services/web-development'
-            ],
-            [
-                'label' => 'SEO',
-                'url' => '/services/seo'
-            ]
-        ]
+        'label' => 'Discography',
+        'url' => '/discography'
     ],
     [
-        'label' => 'Contact',
-        'url' => '/contact'
+        'label' => 'Store',
+        'url' => 'https://store.mrsandmsm.com/'
     ]
 ];
 
