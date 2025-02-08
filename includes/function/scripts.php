@@ -5,6 +5,6 @@
     if ($request_uri == '/' || $request_uri == '/index.php') {
       echo '<script src="/assets/js/homepage.js"></script>';
     } else {
-      echo '<script src="/assets/js/interiors.js"></script>';
+      echo '<script src="/assets/js/interiors.js"></script>\n';
     }
     ?>
