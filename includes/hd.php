@@ -12,7 +12,7 @@
             </a>
           </div>
           <nav class="navigation">
-            <?php $_SERVER['DOCUMENT_ROOT'] . '/includes/navs/main.php'; ?>
+            <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/navs/main.php'; ?>
             <ul class="nav" id="siteNavigation">
               <li class="nav-item">
                 <a href="/news" class="nav-link">News</a>
