@@ -1,5 +1,4 @@
 <?php
-  ob_start();
   # $themes = ['lightblue', 'orange', 'purple', 'navy'];
   $activeTheme = /* $themes[array_rand($themes)]; */ 'orange';
 ?>
@@ -11,6 +10,7 @@
     <title>MR S and MS M | Official Website</title>
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/themes/<?php echo $activeTheme; ?>.css">
+    <link rel="stylesheet" href="/assets/css/homepage.css">
   </head>
   <body class="home <?php echo $activeTheme; ?>">
     <div id="pageContainer">
@@ -21,6 +21,6 @@
       <?php include __DIR__ . '/includes/ft.php'; ?>
     </div>
     <?php include __DIR__ . '/includes/function/scripts.php'; ?>
+    <script src="/assets/js/homepage.css"></script>
   </body>
 </html>
-<?php ob_end_flush(); ?>
