@@ -19,6 +19,6 @@
       </main>
       <?php include_once __DIR__ . '/includes/ft.php'; ?>
     </div>
-    <?php include_once __DIR__ . '/includes/scripts.php' ?>
+    <?php include_once __DIR__ . '/includes/function/scripts.php' ?>
   </body>
 </html>
