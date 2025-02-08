@@ -12,6 +12,7 @@
             </a>
           </div>
           <nav class="navigation">
+            <?php include __DIR__ . '/includes/function/navs.php';>
             <ul class="nav" id="siteNavigation">
               <li class="nav-item">
                 <a href="/news" class="nav-link">News</a>
