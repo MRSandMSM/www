@@ -1,6 +1,6 @@
 <?php 
-  $themes = ['lightblue', 'orange', 'purple', 'navy'];
-  $activeTheme = $themes[array_rand($themes)];
+  # $themes = ['lightblue', 'orange', 'purple', 'navy'];
+  $activeTheme = /* $themes[array_rand($themes)]; */ 'orange';
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
@@ -19,5 +19,6 @@
       </main>
       <?php include_once __DIR__ . '/includes/ft.php'; ?>
     </div>
+    <?php include_once __DIR__ . '/includes/scripts.php' ?>
   </body>
 </html>
