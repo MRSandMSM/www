@@ -13,14 +13,6 @@
           </div>
           <nav class="navigation">
             <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/navs/main.php'; ?>
-            <ul class="nav" id="siteNavigation">
-              <li class="nav-item">
-                <a href="/news" class="nav-link">News</a>
-              </li>
-              <li class="nav-item last">
-                <a href="/store" class="nav-link">Store</a>
-              </li>
-            </ul>
           </nav>
         </div>
       </header>
