@@ -15,7 +15,7 @@
     <div id="pageContainer">
       <?php include __DIR__ . '/includes/hd.php'; ?>
       <main id="page">
-        <?php echo 'this is the website.'; ?>
+        <?php echo 'this is the website. XILA.'; ?>
       </main>
       <?php include __DIR__ . '/includes/ft.php'; ?>
     </div>
