@@ -1,5 +1,5 @@
 <?php
-include __DIR__ . '/includes/function/navs.php';
+include $_SERVER['DOCUMENT_ROOT'] .  '/includes/function/navs.php';
 
 $menu_items = [
     [
