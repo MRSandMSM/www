@@ -1,4 +1,5 @@
-<?php 
+<?php
+  ob_start();
   # $themes = ['lightblue', 'orange', 'purple', 'navy'];
   $activeTheme = /* $themes[array_rand($themes)]; */ 'orange';
 ?>
@@ -22,3 +23,4 @@
     <?php include __DIR__ . '/includes/function/scripts.php'; ?>
   </body>
 </html>
+<?php ob_end_flush(); ?>
