@@ -21,6 +21,6 @@
       <?php include __DIR__ . '/includes/ft.php'; ?>
     </div>
     <?php include __DIR__ . '/includes/function/scripts.php'; ?>
-    <script src="/assets/js/homepage.css"></script>
+    <script src="/assets/js/homepage.js"></script>
   </body>
 </html>
