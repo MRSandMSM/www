@@ -1,10 +1,11 @@
 <footer id="footer">
         <div class="footer-inner">
           <div class="section" id="footerCopyright">
+            <div class="copyright">
+              <p>&copy; <?php echo date("Y"); ?> MR S and MS M.</p>
+            </div>
+            <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/navs/footer.php'; ?>
             <ul class="nav" id="copyrightNav">
-              <li class="nav-item">
-                <span class="nav-span">&copy; <?php echo date("Y"); ?> MR S and MS M</span>
-              </li>
               <li class="nav-item">
                 <a href="/contact" class="nav-link">Contact</a>
               </li>
