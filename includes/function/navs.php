@@ -32,7 +32,7 @@ function build_menu($items, $id = null) {
 
             $menu .= '</ul></li>';
         } else {
-            $menu .= '<li class="nav-item' . (strpos($current_url, $item['url']) !== false ? ' active' : '') . ($is_last ? ' class="last"' : '') . '">';
+            $menu .= '<li class="nav-item' . (strpos($current_url, $item['url']) !== false ? ' active' : '') . ($is_last ? ' last' : '') . '">';
             $menu .= '<a href="' . $item['url'] . '" class="nav-link"' . $target . '>' . $item['label'] . '</a></li>';
         }
     }
