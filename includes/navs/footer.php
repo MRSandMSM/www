@@ -1,7 +1,7 @@
 <?php
 include $_SERVER['DOCUMENT_ROOT'] .  '/includes/function/navs.php';
 
-$menu_items = [
+$ftr_menu_items = [
     [
         'label' => 'Contact',
         'url' => '/contact'
@@ -21,5 +21,5 @@ $menu_items = [
 ];
 
 // Generate the menu with an ID
-echo build_menu($menu_items, 'copyrightNavigation');
+echo build_menu($ftr_menu_items, 'copyrightNavigation');
 ?>
