@@ -1,5 +1,5 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT'] .  '/includes/function/navs.php';
+include_once $_SERVER['DOCUMENT_ROOT'] .  '/includes/function/navs.php';
 
 $ftr_menu_items = [
     [
