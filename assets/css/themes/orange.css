@@ -6,34 +6,34 @@
    |  CORE CSS  |
    +------------+ */
 ::selection {
-  background-color: #6e0b1e;
-  color: #f3eeec;
+  background-color: #6a2a41;
+  color: #f9f2eb;
 }
 body {
-  background-color: #f3eeec;
-  color: #160803;
+  background-color: #f9f2eb;
+  color: #170a03;
 }
 
 /* +------------+
    |  ELEMENTS  |
    +------------+ */
 a {
-  color: #6e0b1e;
+  color: #6a2a41;
 }
 a:hover {
-  color: #160803;
+  color: #170a03;
 }
 
 /* +-------------+
    |  UTILITIES  |
    +-------------+ */
 .btn {
-  background-color: #f16c3b;
-  color: #160803;
+  background-color: #d46714;
+  color: #170a03;
 }
 .btn-transparent {
-  border-color: #6e0b1e;
-  color: #6e0b1e;
+  border-color: #6a2a41;
+  color: #6a2a41;
 }
 
 /* +-------------+
@@ -41,31 +41,31 @@ a:hover {
    +-------------+ */
 .close:before, .close:after,
 .plus:before, .plus:after {
-   background-color: #160803;
+   background-color: #170a03;
 }
 
 /* +----------+
    |  HEADER  |
    +----------+ */
-#header {
-   background-color: #f3eeec;
-   border-color: rgba(22, 8, 3, .0625);
+.scrolled-past #header {
+   background-color: #f9f2eb;
+   border-color: rgba(23, 10, 3, .0625);
 }
 #header .nav-link {
-  color: #160803;
+  color: #170a03;
 }
 #header .nav-link:hover {
-  color: #6e0b1e;
+  color: #6a2a41;
 }
 
 /* +-----------+
    |  FOOTERS  |
    +-----------+ */
 #footer, #siteCredits {
-   background-color: #f5f8fa;
+   background-color: #f9f2eb;
 }
 #copyrightNav {
-   border-color: #160803;
+   border-color: #170a03;
 }
 
 /* +------------------+
@@ -73,9 +73,9 @@ a:hover {
    +------------------+ */
 @media screen and (max-width: 767px) {
   .mobile-nav-toggler:before {
-    background-color: #fbc8b5;
+    background-color: #a5d8ff;
   }
   .bar {
-    background-color: #160803;
+    background-color: #170a03;
   }
 }
