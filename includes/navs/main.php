@@ -22,5 +22,4 @@ $menu_items = [
 
 // Generate the menu with an ID
 echo build_menu($menu_items, 'siteNavigation');
-echo 'debug main.php'
 ?>
